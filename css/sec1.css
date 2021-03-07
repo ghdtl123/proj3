@@ -1,802 +1,2019 @@
-#wrap{}
-#header{}
-section{}
-#footer{}
+#wrap {}
+
+#header {}
+
+section {}
+
+#footer {}
+
 
 /*********************header****************************/
 
-  
-
 
 /*********************section****************************/
+
+
 /***sec1***/
-#sec1{position: relative;}
+
+#sec1 {
+    position: relative;
+    margin-bottom: 150px;
+}
+
 
 /*coolmint*/
-#sec1 #coolmint{display: none;}
-#sec1 .backcolor1_1{width: 50%; height: 455px;
-                  background-color: #139FC0;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_1{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt1{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt1 h2{font-size: 3.125rem;
-                         color: #065F73;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt1 h3{font-size: 2rem;
-                         color: #065F73;}
-#sec1 .inner .lefttxt1 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt1 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt1 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt1 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(25%) sepia(13%) saturate(6274%) hue-rotate(158deg) brightness(100%) contrast(95%);}
-#sec1 .inner .lefttxt1 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt1 a:hover{border: none; background-color: #065F73;}
-#sec1 .inner .lefttxt1 .hrefbox1_1{margin-left: 20px;}
-#sec1 .inner .lefttxt1 .hrefbox2_1{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;z-index: 100;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #coolmint {
+    display: none;
+}
 
-#sec1 .inner .righttxt1{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt1 h3{font-size: 2rem;}
-#sec1 .inner .righttxt1 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt1 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt1 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(62%) sepia(36%) saturate(7499%) hue-rotate(157deg) brightness(92%) contrast(85%);}
-#sec1 .inner .righttxt1 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt1 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt1 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt1 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt1 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt1 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt1 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_1 {
+    width: 50%;
+    height: 455px;
+    background-color: #139FC0;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt1 .hrefbox3_1{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt1 .hrefbox3_1:hover{border: none; background-color: #065F73;color: #fff;}
+#sec1 .backcolor2_1 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt1 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt1 h2 {
+    font-size: 3.125rem;
+    color: #065F73;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt1 h3 {
+    font-size: 2rem;
+    color: #065F73;
+}
+
+#sec1 .inner .lefttxt1 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt1 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt1 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt1 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(25%) sepia(13%) saturate(6274%) hue-rotate(158deg) brightness(100%) contrast(95%);
+}
+
+#sec1 .inner .lefttxt1 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt1 a:hover {
+    border: none;
+    background-color: #065F73;
+}
+
+#sec1 .inner .lefttxt1 .hrefbox1_1 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt1 .hrefbox2_1 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+    z-index: 100;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt1 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt1 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt1 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt1 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt1 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(62%) sepia(36%) saturate(7499%) hue-rotate(157deg) brightness(92%) contrast(85%);
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt1 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt1 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt1 .hrefbox3_1 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt1 .hrefbox3_1:hover {
+    border: none;
+    background-color: #065F73;
+    color: #fff;
+}
+
+
 /*coolmintmild*/
-#sec1 #coolmintmild{display: none;}
-#sec1 .backcolor1_2{width: 50%; height: 455px;
-                  background-color: #78D0DA;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_2{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt2{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt2 h2{font-size: 3.125rem;
-                         color: #065F73;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt2 h3{font-size: 2rem;
-                         color: #065F73;}
-#sec1 .inner .lefttxt2 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt2 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt2 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt2 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(25%) sepia(13%) saturate(6274%) hue-rotate(158deg) brightness(100%) contrast(95%);}
-#sec1 .inner .lefttxt2 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt2 a:hover{border: none; background-color: #065F73;}
-#sec1 .inner .lefttxt2 .hrefbox1_2{margin-left: 20px;}
-#sec1 .inner .lefttxt2 .hrefbox2_2{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #coolmintmild {
+    display: none;
+}
 
-#sec1 .inner .righttxt2{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt2 h3{font-size: 2rem;}
-#sec1 .inner .righttxt2 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt2 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt2 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(99%) sepia(89%) saturate(3776%) hue-rotate(159deg) brightness(89%) contrast(89%);}
-#sec1 .inner .righttxt2 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt2 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt2 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt2 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt2 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt2 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt2 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_2 {
+    width: 50%;
+    height: 455px;
+    background-color: #78D0DA;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt2 .hrefbox3_2{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt2 .hrefbox3_2:hover{border: none; background-color: #065F73;color: #fff;}
+#sec1 .backcolor2_2 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt2 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt2 h2 {
+    font-size: 3.125rem;
+    color: #065F73;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt2 h3 {
+    font-size: 2rem;
+    color: #065F73;
+}
+
+#sec1 .inner .lefttxt2 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt2 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt2 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt2 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(25%) sepia(13%) saturate(6274%) hue-rotate(158deg) brightness(100%) contrast(95%);
+}
+
+#sec1 .inner .lefttxt2 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt2 a:hover {
+    border: none;
+    background-color: #065F73;
+}
+
+#sec1 .inner .lefttxt2 .hrefbox1_2 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt2 .hrefbox2_2 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt2 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt2 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt2 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt2 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt2 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(99%) sepia(89%) saturate(3776%) hue-rotate(159deg) brightness(89%) contrast(89%);
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt2 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt2 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt2 .hrefbox3_2 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt2 .hrefbox3_2:hover {
+    border: none;
+    background-color: #065F73;
+    color: #fff;
+}
+
+
 /*gumcare*/
-#sec1 #gumcare{display: none;}
-#sec1 .backcolor1_3{width: 50%; height: 455px;
-                  background-color: #ECBF00;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_3{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt3{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt3 h2{font-size: 3.125rem;
-                         color: #D69C0B;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt3 h3{font-size: 2rem;
-                         color: #D69C0B;}
-#sec1 .inner .lefttxt3 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt3 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt3 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt3 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);}
-#sec1 .inner .lefttxt3 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt3 a:hover{border: none; background-color: #D69C0B;}
-#sec1 .inner .lefttxt3 .hrefbox1_3{margin-left: 20px;}
-#sec1 .inner .lefttxt3 .hrefbox2_3{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #gumcare {
+    display: none;
+}
 
-#sec1 .inner .righttxt3{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt3 h3{font-size: 2rem;}
-#sec1 .inner .righttxt3 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt3 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt3 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);}
-#sec1 .inner .righttxt3 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt3 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt3 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt3 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt3 ul li:nth-child(6):after{filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);}
-#sec1 .inner .righttxt3 ul li:nth-child(6):before{background-color: #222;}
-#sec1 .inner .righttxt3 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_3 {
+    width: 50%;
+    height: 455px;
+    background-color: #ECBF00;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt3 .hrefbox3_3{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt3 .hrefbox3_3:hover{border: none; background-color: #D69C0B;color: #fff;}
+#sec1 .backcolor2_3 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt3 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt3 h2 {
+    font-size: 3.125rem;
+    color: #D69C0B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt3 h3 {
+    font-size: 2rem;
+    color: #D69C0B;
+}
+
+#sec1 .inner .lefttxt3 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt3 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt3 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt3 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);
+}
+
+#sec1 .inner .lefttxt3 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt3 a:hover {
+    border: none;
+    background-color: #D69C0B;
+}
+
+#sec1 .inner .lefttxt3 .hrefbox1_3 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt3 .hrefbox2_3 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt3 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt3 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt3 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt3 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt3 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(6):after {
+    filter: invert(73%) sepia(21%) saturate(5561%) hue-rotate(5deg) brightness(92%) contrast(91%);
+}
+
+#sec1 .inner .righttxt3 ul li:nth-child(6):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt3 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt3 .hrefbox3_3 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt3 .hrefbox3_3:hover {
+    border: none;
+    background-color: #D69C0B;
+    color: #fff;
+}
+
+
 /*greentea*/
-#sec1 #greentea{display: none;}
-#sec1 .backcolor1_4{width: 50%; height: 455px;
-                  background-color: #B4DC2C;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_4{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt4{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt4 h2{font-size: 3.125rem;
-                         color: #89A822;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt4 h3{font-size: 2rem;
-                         color: #89A822;}
-#sec1 .inner .lefttxt4 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt4 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt4 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt4 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(53%) sepia(95%) saturate(371%) hue-rotate(33deg) brightness(97%) contrast(84%);}
-#sec1 .inner .lefttxt4 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt4 a:hover{border: none; background-color: #89A822;}
-#sec1 .inner .lefttxt4 .hrefbox1_4{margin-left: 20px;}
-#sec1 .inner .lefttxt4 .hrefbox2_4{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #greentea {
+    display: none;
+}
 
-#sec1 .inner .righttxt4{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt4 h3{font-size: 2rem;}
-#sec1 .inner .righttxt4 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt4 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt4 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(69%) sepia(100%) saturate(362%) hue-rotate(24deg) brightness(103%) contrast(87%);}
-#sec1 .inner .righttxt4 ul li:nth-child(4):after{filter: invert(69%) sepia(100%) saturate(362%) hue-rotate(24deg) brightness(103%) contrast(87%);}
-#sec1 .inner .righttxt4 ul li:nth-child(4):before{background-color: #222;}
-#sec1 .inner .righttxt4 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt4 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt4 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt4 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt4 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_4 {
+    width: 50%;
+    height: 455px;
+    background-color: #B4DC2C;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt4 .hrefbox3_4{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt4 .hrefbox3_4:hover{border: none; background-color: #89A822;color: #fff;}
+#sec1 .backcolor2_4 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt4 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt4 h2 {
+    font-size: 3.125rem;
+    color: #89A822;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt4 h3 {
+    font-size: 2rem;
+    color: #89A822;
+}
+
+#sec1 .inner .lefttxt4 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt4 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt4 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt4 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(53%) sepia(95%) saturate(371%) hue-rotate(33deg) brightness(97%) contrast(84%);
+}
+
+#sec1 .inner .lefttxt4 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt4 a:hover {
+    border: none;
+    background-color: #89A822;
+}
+
+#sec1 .inner .lefttxt4 .hrefbox1_4 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt4 .hrefbox2_4 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt4 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt4 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt4 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt4 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt4 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(69%) sepia(100%) saturate(362%) hue-rotate(24deg) brightness(103%) contrast(87%);
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(4):after {
+    filter: invert(69%) sepia(100%) saturate(362%) hue-rotate(24deg) brightness(103%) contrast(87%);
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(4):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt4 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt4 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt4 .hrefbox3_4 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt4 .hrefbox3_4:hover {
+    border: none;
+    background-color: #89A822;
+    color: #fff;
+}
+
 
 /*freshburst*/
-#sec1 #freshburst{display: none;}
-#sec1 .backcolor1_5{width: 50%; height: 455px;
-                  background-color:  #3D9C70;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_5{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt5{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt5 h2{font-size: 3.125rem;
-                         color: #29694B;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt5 h3{font-size: 2rem;
-                         color: #29694B;}
-#sec1 .inner .lefttxt5 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt5 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt5 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt5 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(37%) sepia(12%) saturate(1827%) hue-rotate(100deg) brightness(87%) contrast(88%);}
-#sec1 .inner .lefttxt5 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt5 a:hover{border: none; background-color: #29694B;}
-#sec1 .inner .lefttxt5 .hrefbox1_5{margin-left: 20px;}
-#sec1 .inner .lefttxt5 .hrefbox2_5{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #freshburst {
+    display: none;
+}
 
-#sec1 .inner .righttxt5{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt5 h3{font-size: 2rem;}
-#sec1 .inner .righttxt5 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt5 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt5 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(58%) sepia(7%) saturate(2405%) hue-rotate(100deg) brightness(89%) contrast(104%);}
-#sec1 .inner .righttxt5 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt5 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt5 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt5 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt5 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt5 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt5 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_5 {
+    width: 50%;
+    height: 455px;
+    background-color: #3D9C70;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt5 .hrefbox3_5{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt5 .hrefbox3_5:hover{border: none; background-color: #29694B;color: #fff;}
+#sec1 .backcolor2_5 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt5 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt5 h2 {
+    font-size: 3.125rem;
+    color: #29694B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt5 h3 {
+    font-size: 2rem;
+    color: #29694B;
+}
+
+#sec1 .inner .lefttxt5 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt5 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt5 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt5 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(37%) sepia(12%) saturate(1827%) hue-rotate(100deg) brightness(87%) contrast(88%);
+}
+
+#sec1 .inner .lefttxt5 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt5 a:hover {
+    border: none;
+    background-color: #29694B;
+}
+
+#sec1 .inner .lefttxt5 .hrefbox1_5 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt5 .hrefbox2_5 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt5 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt5 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt5 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt5 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt5 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(58%) sepia(7%) saturate(2405%) hue-rotate(100deg) brightness(89%) contrast(104%);
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt5 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt5 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt5 .hrefbox3_5 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt5 .hrefbox3_5:hover {
+    border: none;
+    background-color: #29694B;
+    color: #fff;
+}
+
 
 /*healthy*/
-#sec1 #healthy{display: none;}
-#sec1 .backcolor1_6{width: 50%; height: 455px;
-                  background-color:  #E7ECEF;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_6{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt6{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt6 h2{font-size: 3.125rem;
-                         color: #B7BBBD;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt6 h3{font-size: 2rem;
-                         color: #B7BBBD;}
-#sec1 .inner .lefttxt6 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #139FC0;}
-#sec1 .inner .lefttxt6 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt6 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt6 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);}
-#sec1 .inner .lefttxt6 a{
-                        color: #139FC0; border: 1px solid#139FC0;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt6 a:hover{border: none; background-color: #B7BBBD;color: #fff;}
-#sec1 .inner .lefttxt6 .hrefbox1_6{margin-left: 20px;}
-#sec1 .inner .lefttxt6 .hrefbox2_6{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #healthy {
+    display: none;
+}
 
-#sec1 .inner .righttxt6{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt6 h3{font-size: 2rem;}
-#sec1 .inner .righttxt6 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt6 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt6 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);}
-#sec1 .inner .righttxt6 ul li:nth-child(4):after{filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);}
-#sec1 .inner .righttxt6 ul li:nth-child(4):before{background-color: #222;}
-#sec1 .inner .righttxt6 ul li:nth-child(5):after{filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);}
-#sec1 .inner .righttxt6 ul li:nth-child(5):before{background-color: #222;}
-#sec1 .inner .righttxt6 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt6 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt6 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_6 {
+    width: 50%;
+    height: 455px;
+    background-color: #E7ECEF;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt6 .hrefbox3_6{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt6 .hrefbox3_6:hover{border: none; background-color: #B7BBBD;color: #fff;}
+#sec1 .backcolor2_6 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt6 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt6 h2 {
+    font-size: 3.125rem;
+    color: #B7BBBD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt6 h3 {
+    font-size: 2rem;
+    color: #B7BBBD;
+}
+
+#sec1 .inner .lefttxt6 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #139FC0;
+}
+
+#sec1 .inner .lefttxt6 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt6 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt6 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);
+}
+
+#sec1 .inner .lefttxt6 a {
+    color: #139FC0;
+    border: 1px solid#139FC0;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt6 a:hover {
+    border: none;
+    background-color: #B7BBBD;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt6 .hrefbox1_6 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt6 .hrefbox2_6 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt6 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt6 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt6 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt6 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt6 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(4):after {
+    filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(4):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(5):after {
+    filter: invert(74%) sepia(59%) saturate(6655%) hue-rotate(156deg) brightness(91%) contrast(85%);
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(5):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt6 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt6 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt6 .hrefbox3_6 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt6 .hrefbox3_6:hover {
+    border: none;
+    background-color: #B7BBBD;
+    color: #fff;
+}
+
+
 /*citrus*/
-#sec1 #citrus{display: none;}
-#sec1 .backcolor1_7{width: 50%; height: 455px;
-                  background-color:   #E98D3A;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_7{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt7{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt7 h2{font-size: 3.125rem;
-                         color: #B56D2D;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt7 h3{font-size: 2rem;
-                         color: #B56D2D;}
-#sec1 .inner .lefttxt7 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt7 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt7 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt7 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(43%) sepia(97%) saturate(353%) hue-rotate(347deg) brightness(90%) contrast(92%);}
-#sec1 .inner .lefttxt7 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt7 a:hover{border: none; background-color: #B56D2D;color: #fff;}
-#sec1 .inner .lefttxt7 .hrefbox1_7{margin-left: 20px;}
-#sec1 .inner .lefttxt7 .hrefbox2_7{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #citrus {
+    display: none;
+}
 
-#sec1 .inner .righttxt7{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt7 h3{font-size: 2rem;}
-#sec1 .inner .righttxt7 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt7 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt7 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(78%) sepia(34%) saturate(4571%) hue-rotate(334deg) brightness(96%) contrast(90%);}
-#sec1 .inner .righttxt7 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt7 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt7 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt7 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt7 ul li:nth-child(6):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt7 ul li:nth-child(6):before{background-color: #fff;}
-#sec1 .inner .righttxt7 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_7 {
+    width: 50%;
+    height: 455px;
+    background-color: #E98D3A;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt7 .hrefbox3_7{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt7 .hrefbox3_7:hover{border: none; background-color: #B56D2D;color: #fff;}
+#sec1 .backcolor2_7 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt7 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt7 h2 {
+    font-size: 3.125rem;
+    color: #B56D2D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt7 h3 {
+    font-size: 2rem;
+    color: #B56D2D;
+}
+
+#sec1 .inner .lefttxt7 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt7 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt7 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt7 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(43%) sepia(97%) saturate(353%) hue-rotate(347deg) brightness(90%) contrast(92%);
+}
+
+#sec1 .inner .lefttxt7 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt7 a:hover {
+    border: none;
+    background-color: #B56D2D;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt7 .hrefbox1_7 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt7 .hrefbox2_7 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt7 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt7 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt7 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt7 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt7 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(78%) sepia(34%) saturate(4571%) hue-rotate(334deg) brightness(96%) contrast(90%);
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(6):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt7 ul li:nth-child(6):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt7 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt7 .hrefbox3_7 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt7 .hrefbox3_7:hover {
+    border: none;
+    background-color: #B56D2D;
+    color: #fff;
+}
+
+
 /*teeth*/
-#sec1 #teeth{display: none;}
-#sec1 .backcolor1_8{width: 50%; height: 455px;
-                  background-color: #44BC99;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_8{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt8{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt8 h2{font-size: 3.125rem;
-                         color: #328A71;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt8 h3{font-size: 2rem;
-                         color: #328A71;}
-#sec1 .inner .lefttxt8 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt8 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt8 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt8 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(44%) sepia(55%) saturate(406%) hue-rotate(112deg) brightness(93%) contrast(93%);}
-#sec1 .inner .lefttxt8 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt8 a:hover{border: none; background-color: #328A71;color: #fff;}
-#sec1 .inner .lefttxt8 .hrefbox1_8{margin-left: 20px;}
-#sec1 .inner .lefttxt8 .hrefbox2_8{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #teeth {
+    display: none;
+}
 
-#sec1 .inner .righttxt8{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt8 h3{font-size: 2rem;}
-#sec1 .inner .righttxt8 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt8 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt8 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(63%) sepia(5%) saturate(3846%) hue-rotate(112deg) brightness(97%) contrast(106%);}
-#sec1 .inner .righttxt8 ul li:nth-child(4):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt8 ul li:nth-child(4):before{background-color: #fff;}
-#sec1 .inner .righttxt8 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt8 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt8 ul li:nth-child(6):after{filter: invert(63%) sepia(5%) saturate(3846%) hue-rotate(112deg) brightness(97%) contrast(106%);}
-#sec1 .inner .righttxt8 ul li:nth-child(6):before{background-color: #222;}
-#sec1 .inner .righttxt8 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_8 {
+    width: 50%;
+    height: 455px;
+    background-color: #44BC99;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt8 .hrefbox3_8{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt8 .hrefbox3_8:hover{border: none; background-color: #328A71;color: #fff;}
+#sec1 .backcolor2_8 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt8 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt8 h2 {
+    font-size: 3.125rem;
+    color: #328A71;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt8 h3 {
+    font-size: 2rem;
+    color: #328A71;
+}
+
+#sec1 .inner .lefttxt8 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt8 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt8 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt8 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(44%) sepia(55%) saturate(406%) hue-rotate(112deg) brightness(93%) contrast(93%);
+}
+
+#sec1 .inner .lefttxt8 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt8 a:hover {
+    border: none;
+    background-color: #328A71;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt8 .hrefbox1_8 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt8 .hrefbox2_8 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt8 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt8 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt8 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt8 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt8 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(63%) sepia(5%) saturate(3846%) hue-rotate(112deg) brightness(97%) contrast(106%);
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(4):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(4):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(6):after {
+    filter: invert(63%) sepia(5%) saturate(3846%) hue-rotate(112deg) brightness(97%) contrast(106%);
+}
+
+#sec1 .inner .righttxt8 ul li:nth-child(6):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt8 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt8 .hrefbox3_8 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt8 .hrefbox3_8:hover {
+    border: none;
+    background-color: #328A71;
+    color: #fff;
+}
+
+
 /*totalcare*/
-#sec1 #totalcare{display: none;}
-#sec1 .backcolor1_9{width: 50%; height: 455px;
-                  background-color: #8B72B4;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2_9{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt9{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt9 h2{font-size: 3.125rem;
-                         color: #645282;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt9 h3{font-size: 2rem;
-                         color: #645282;}
-#sec1 .inner .lefttxt9 p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt9 ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt9 ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt9 ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(34%) sepia(6%) saturate(3472%) hue-rotate(221deg) brightness(92%) contrast(83%);}
-#sec1 .inner .lefttxt9 a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt9 a:hover{border: none; background-color: #645282;color: #fff;}
-#sec1 .inner .lefttxt9 .hrefbox1_9{margin-left: 20px;}
-#sec1 .inner .lefttxt9 .hrefbox2_9{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #totalcare {
+    display: none;
+}
 
-#sec1 .inner .righttxt9{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt9 h3{font-size: 2rem;}
-#sec1 .inner .righttxt9 ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt9 ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt9 ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);}
-#sec1 .inner .righttxt9 ul li:nth-child(4):after{filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);}
-#sec1 .inner .righttxt9 ul li:nth-child(4):before{background-color: #222;}
-#sec1 .inner .righttxt9 ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt9 ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt9 ul li:nth-child(6):after{filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);}
-#sec1 .inner .righttxt9 ul li:nth-child(6):before{background-color: #222;}
-#sec1 .inner .righttxt9 ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1_9 {
+    width: 50%;
+    height: 455px;
+    background-color: #8B72B4;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt9 .hrefbox3_9{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt9 .hrefbox3_9:hover{border: none; background-color: #645282;color: #fff;}
+#sec1 .backcolor2_9 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt9 {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt9 h2 {
+    font-size: 3.125rem;
+    color: #645282;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt9 h3 {
+    font-size: 2rem;
+    color: #645282;
+}
+
+#sec1 .inner .lefttxt9 p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt9 ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt9 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt9 ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(34%) sepia(6%) saturate(3472%) hue-rotate(221deg) brightness(92%) contrast(83%);
+}
+
+#sec1 .inner .lefttxt9 a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt9 a:hover {
+    border: none;
+    background-color: #645282;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt9 .hrefbox1_9 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt9 .hrefbox2_9 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt9 {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt9 h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt9 ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt9 ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt9 ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(4):after {
+    filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(4):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(6):after {
+    filter: invert(49%) sepia(65%) saturate(312%) hue-rotate(221deg) brightness(87%) contrast(86%);
+}
+
+#sec1 .inner .righttxt9 ul li:nth-child(6):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt9 ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt9 .hrefbox3_9 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt9 .hrefbox3_9:hover {
+    border: none;
+    background-color: #645282;
+    color: #fff;
+}
+
+
 /*totalcaremild*/
-#sec1 #totalcaremild{display: none;}
-#sec1 .backcolor1{width: 50%; height: 455px;
-                  background-color: #B3A9D3;
-                  position: absolute;top: 240px;left: 0;
-                  z-index: -1111;}
-#sec1 .backcolor2{width: 50%; height: 455px;
-                  position: absolute;top: 240px;right: 0;
-                  z-index: -1111;} 
-#sec1 .inner{}
-#sec1 .inner .lefttxt{float: left;margin-top: 290px;
-                      margin-left: 20px;}
-#sec1 .inner .lefttxt h2{font-size: 3.125rem;
-                         color: #645282;
-                         font-family: 'Montserrat',sans-serif;}
-#sec1 .inner .lefttxt h3{font-size: 2rem;
-                         color: #645282;}
-#sec1 .inner .lefttxt p{font-size: 1.3125rem; line-height: 3em;
-                        padding-top: 10px;
-                        color: #fff;}
-#sec1 .inner .lefttxt ul{margin-left: 22px;} 
-#sec1 .inner .lefttxt ul li{font-size: 1.3125rem;
-                            line-height: 0.5em;}
-                            
-#sec1 .inner .lefttxt ul li:before{content: '';display: block;
-                                   background: url(../images/Sicon.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 19px; height: 19px;
-                                   position: relative; top: 15px; left: -22px;
-                                   filter: invert(34%) sepia(6%) saturate(3472%) hue-rotate(221deg) brightness(92%) contrast(83%);}
-#sec1 .inner .lefttxt a{
-                        color: #fff; border: 1px solid#fff;
-                        padding: 10px 15px;
-                        display: inline-block;
-                        margin-top: 25px;}
-#sec1 .inner .lefttxt a:hover{border: none; background-color: #645282;color: #fff;}
-#sec1 .inner .lefttxt .hrefbox1{margin-left: 20px;}
-#sec1 .inner .lefttxt .hrefbox2{margin-left: 10px;}
 
-#sec1 .inner .coolmintbox{position: absolute;top: 330px;left: calc(50% - 275px);
-                          width: 550px; height: 450px;}
-#sec1 .inner .coolmintbox img{width: 100%;}
+#sec1 #totalcaremild {
+    display: none;
+}
 
-#sec1 .inner .righttxt{float: right;margin-top: 290px;
-                       text-align: right;
-                       margin-right: 20px;
-                       color: #888;}
-#sec1 .inner .righttxt h3{font-size: 2rem;}
-#sec1 .inner .righttxt ul{padding-top: 25px;
-                          margin-right: 20px;}
-#sec1 .inner .righttxt ul li{font-size: 1.3125rem;
-                             line-height: 0.2em;}
-#sec1 .inner .righttxt ul li:after{content: '';display: block;
-                                   background: url(../images/icon1.svg)no-repeat center;
-                                   background-size: 100%;
-                                   width: 10px; height: 20px;
-                                   position: relative; top: -10px; left: 135px;
-                                   filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);}
-#sec1 .inner .righttxt ul li:nth-child(4):after{filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);}
-#sec1 .inner .righttxt ul li:nth-child(4):before{background-color: #222;}
-#sec1 .inner .righttxt ul li:nth-child(5):after{filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);}
-#sec1 .inner .righttxt ul li:nth-child(5):before{background-color: #fff;}
-#sec1 .inner .righttxt ul li:nth-child(6):after{filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);}
-#sec1 .inner .righttxt ul li:nth-child(6):before{background-color: #222;}
-#sec1 .inner .righttxt ul li:before{content: '';display: block;
-                                    width: 4px;height: 5px;
-                                    background-color: #222;
-                                    position: relative; top: -3px;left: 138px;}
+#sec1 .backcolor1 {
+    width: 50%;
+    height: 455px;
+    background-color: #B3A9D3;
+    position: absolute;
+    top: 240px;
+    left: 0;
+    z-index: -1111;
+}
 
-#sec1 .inner .righttxt .hrefbox3{
-                                 color: #888; border: 1px solid#888;
-                                 padding: 10px 15px;
-                                 display: inline-block;
-                                 margin-top: 25px;}
-#sec1 .inner .righttxt .hrefbox3:hover{border: none; background-color: #645282;color: #fff;}
+#sec1 .backcolor2 {
+    width: 50%;
+    height: 455px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+    z-index: -1111;
+}
+
+#sec1 .inner {}
+
+#sec1 .inner .lefttxt {
+    float: left;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt h2 {
+    font-size: 3.125rem;
+    color: #645282;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sec1 .inner .lefttxt h3 {
+    font-size: 2rem;
+    color: #645282;
+}
+
+#sec1 .inner .lefttxt p {
+    font-size: 1.3125rem;
+    line-height: 3em;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt ul {
+    margin-left: 22px;
+}
+
+#sec1 .inner .lefttxt ul li {
+    font-size: 1.3125rem;
+    line-height: 0.5em;
+}
+
+#sec1 .inner .lefttxt ul li:before {
+    content: '';
+    display: block;
+    background: url(../images/Sicon.svg)no-repeat center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    top: 15px;
+    left: -22px;
+    filter: invert(34%) sepia(6%) saturate(3472%) hue-rotate(221deg) brightness(92%) contrast(83%);
+}
+
+#sec1 .inner .lefttxt a {
+    color: #fff;
+    border: 1px solid#fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .lefttxt a:hover {
+    border: none;
+    background-color: #645282;
+    color: #fff;
+}
+
+#sec1 .inner .lefttxt .hrefbox1 {
+    margin-left: 20px;
+}
+
+#sec1 .inner .lefttxt .hrefbox2 {
+    margin-left: 10px;
+}
+
+#sec1 .inner .coolmintbox {
+    position: absolute;
+    top: 330px;
+    left: calc(50% - 275px);
+    width: 550px;
+    height: 450px;
+}
+
+#sec1 .inner .coolmintbox img {
+    width: 100%;
+}
+
+#sec1 .inner .righttxt {
+    float: right;
+    margin-top: 290px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+#sec1 .inner .righttxt h3 {
+    font-size: 2rem;
+}
+
+#sec1 .inner .righttxt ul {
+    padding-top: 25px;
+    margin-right: 20px;
+}
+
+#sec1 .inner .righttxt ul li {
+    font-size: 1.3125rem;
+    line-height: 0.2em;
+}
+
+#sec1 .inner .righttxt ul li:after {
+    content: '';
+    display: block;
+    background: url(../images/icon1.svg)no-repeat center;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 135px;
+    filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);
+}
+
+#sec1 .inner .righttxt ul li:nth-child(4):after {
+    filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);
+}
+
+#sec1 .inner .righttxt ul li:nth-child(4):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt ul li:nth-child(5):after {
+    filter: invert(100%) sepia(0%) saturate(7425%) hue-rotate(323deg) brightness(113%) contrast(101%);
+}
+
+#sec1 .inner .righttxt ul li:nth-child(5):before {
+    background-color: #fff;
+}
+
+#sec1 .inner .righttxt ul li:nth-child(6):after {
+    filter: invert(68%) sepia(38%) saturate(204%) hue-rotate(213deg) brightness(95%) contrast(93%);
+}
+
+#sec1 .inner .righttxt ul li:nth-child(6):before {
+    background-color: #222;
+}
+
+#sec1 .inner .righttxt ul li:before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 5px;
+    background-color: #222;
+    position: relative;
+    top: -3px;
+    left: 138px;
+}
+
+#sec1 .inner .righttxt .hrefbox3 {
+    color: #888;
+    border: 1px solid#888;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#sec1 .inner .righttxt .hrefbox3:hover {
+    border: none;
+    background-color: #645282;
+    color: #fff;
+}
+
 
 /*listerinebtn*/
-#sec1 .inner .listerinebtn{margin-top: 170px;
-                           text-align: center;
-                           z-index: 200;}
-#sec1 .inner .listerinebtn li{vertical-align: top;
-                              display: inline-block;
-                              width: 80px;height: 80px;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              font-size: 0.875rem;
-                              line-height: 2em;
-                              opacity: 0.3;z-index: 200;
-                              transition: 0.3s;}
-#sec1 .inner .listerinebtn li a{
-                                transition: 0.3s;
-                                }
-#sec1 .inner .listerinebtn li:hover{opacity: 1;}
-#sec1 .inner .listerinebtn li a img{width: 100%;}
-#sec1 .inner .listerinebtn li.active{opacity: 1;}
 
-#sec1 .inner .listerinebtn li:nth-child(1){color: #139FC0;}
-#sec1 .inner .listerinebtn li:nth-child(2){color: #78D0DA;}
-#sec1 .inner .listerinebtn li:nth-child(3){color: #ECBF00;}
-#sec1 .inner .listerinebtn li:nth-child(4){color: #B4DC2C;}
-#sec1 .inner .listerinebtn li:nth-child(5){color: #3D9C70;}
-#sec1 .inner .listerinebtn li:nth-child(6){color: #222;}
-#sec1 .inner .listerinebtn li:nth-child(7){color: #E98D3A;}
-#sec1 .inner .listerinebtn li:nth-child(8){color: #44BC99;}
-#sec1 .inner .listerinebtn li:nth-child(9){color: #8B72B4;}
-#sec1 .inner .listerinebtn li:nth-child(10){color: #B3A9D3;}
+#sec1 .inner .listerinebtn {
+    margin-top: 170px;
+    text-align: center;
+    z-index: 200;
+}
 
+#sec1 .inner .listerinebtn li {
+    vertical-align: top;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.875rem;
+    line-height: 2em;
+    opacity: 0.3;
+    z-index: 200;
+    transition: 0.3s;
+}
 
+#sec1 .inner .listerinebtn li a {
+    transition: 0.3s;
+}
+
+#sec1 .inner .listerinebtn li:hover {
+    opacity: 1;
+}
+
+#sec1 .inner .listerinebtn li a img {
+    width: 100%;
+}
+
+#sec1 .inner .listerinebtn li.active {
+    opacity: 1;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(1) {
+    color: #139FC0;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(2) {
+    color: #78D0DA;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(3) {
+    color: #ECBF00;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(4) {
+    color: #B4DC2C;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(5) {
+    color: #3D9C70;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(6) {
+    color: #222;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(7) {
+    color: #E98D3A;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(8) {
+    color: #44BC99;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(9) {
+    color: #8B72B4;
+}
+
+#sec1 .inner .listerinebtn li:nth-child(10) {
+    color: #B3A9D3;
+}
 
 
 /*********************footer****************************/

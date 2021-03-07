@@ -1,120 +1,285 @@
 @charset "utf-8";
 
 /*googleips 웹폰트 css 파일 불러오기*/
+
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:wght@300;400;500;700&family=Noto+Sans+KR:wght@400;700&display=swap');
+
 /*
 font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Montserrat',sans-serif;
 font-family: 'Black Han Sans',sans-serif;*/
 
+
 /* 저장된 글꼴 파일 선언*/
+
+
 /* @font-face { font-family : font_gothic;    
                 src : url(../font/NanumGothic.ttf); }  */
+
+
 /* 웹사이트의 글꼴 파일 선언*/
+
+
 /* @font-face { font-family : font_gothic;    
                 src : url(http://uhbee.com/nanum.eot) ; }   */
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-* {margin:0; padding:0;}
-html{font-size: 16px;}
-body{ font-size:16px;
-      color:#222222;
-      font-family: 'Noto Sans KR',sans-serif;
-      }
-ul, ol, li{list-style-type:none}
-img, fieldset{border:none;vertical-align: middle}
-hr {clear:both;border:none}
-a {color:inherit;text-decoration:none;  
-       font-family:inherit;
-       vertical-align: middle;}
-button{outline:0}
-#wrap{width: 100%;}
-.inner{width: 1280px; margin: 0 auto;}
-.sound_only{display: block; text-indent: -99999999999999px; height: 0;}
-.bold{font-weight: bold;}
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+    color: #222222;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none
+}
+
+img,
+fieldset {
+    border: none;
+    vertical-align: middle
+}
+
+hr {
+    clear: both;
+    border: none
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    vertical-align: middle;
+}
+
+button {
+    outline: 0
+}
+
+#wrap {
+    width: 100%;
+}
+
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sound_only {
+    display: block;
+    text-indent: -99999999999999px;
+    height: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 
 /*header*/
-#header{position: fixed;top: 0;width: 100%; height: 100px;z-index: 10;}
+
+#header {
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+}
+
 
 /*logo*/
-#header #logo{width: 16.6%;
-              position: absolute; top: 0; left: 0;
-              margin-top: 15px;
-              margin-left: 10px;}
-#header #logo img{width: 100%;}
+
+#header #logo {
+    width: 13%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#header #logo img {
+    width: 100%;
+}
+
 
 /*nav*/
-#header #nav{text-align: center;}
-#header #nav .depth1{position: relative;
-                     display: inline-block;
-                     vertical-align: top;
-                     font-family: 'Montserrat',sans-serif;
-                     font-weight: 500;
-                     }
-#header #nav .depth1 > li{font-size: 1.25rem;
-                          line-height: 4.5em;
-                          padding-left: 40px;
-                          padding-right: 40px;
-                          transition: 0.3s;}
-#header #nav .depth1 > li:hover{color: #139FC0;}
-#header #nav .depth1 > li > a:before{content: '';display: block;
-                                     width: 0; height: 3px; background-color: #139FC0;
-                                     position: relative; top: 30px;
-                                     transition: 0.3s;}  
-#header #nav .depth1 > li:hover a:before{width: 100%;}  
-#header #nav .depth2{position: absolute;
-                     top: 100px; left: 45%;
-                     transform: translateX(-45%);
-                     text-align: left;
-                     font-weight: 400;
-                     z-index: 10;
-                     color: #fff;
-                     display: none;
-                     background-color:#139FC0;
-                     width: 210px;
-                     padding: 10px;
-                     }/*상 우 하 좌*/
-#header #nav .depth2 > li{font-size: 1rem;
-                          line-height: 2em;
-                          border-left: 2px solid #fff;
-                          padding-left: 10px;
-                          transition: 0.3s;}
-#header #nav .depth2 li:hover{color: #065F73;border-color: #065F73;}
-#header #topmu{width: 16.6%;
-               position: absolute; top: 0; right: 0;
-               text-align: center;}
-#header #topmu button{background:none;
-                      border: none;
-                      font-family: 'Montserrat',sans-serif;
-                      font-size: 1.125rem;
-                      line-height: 5.5em;
-                      padding-right: 10px;
-                      transition: 0.3s;}
-#header #topmu button:hover{color: #139FC0;cursor: pointer;
-                            }
-#header #topmu .sitemap{display: none;}
-#header #topmu span{position: absolute;
-                    transform: translate(20px, 35px);
-                    background-color: #222;
-                    border-radius: 5px;
-                    width: 30px; height: 5px;
-                    }
-#header #topmu span:nth-child(1){top: 0;}
-#header #topmu span:nth-child(2){top: 10px;}
-#header #topmu span:nth-child(3){top: 20px;}
+
+#header #nav {
+    text-align: center;
+    z-index: 1000;
+}
+
+#header #nav .depth1 {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#header #nav .depth1>li {
+    font-size: 1.25rem;
+    line-height: 3em;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: 0.3s;
+}
+
+#header #nav .depth1>li:hover {
+    color: #139FC0;
+}
+
+#header #nav .depth1>li>a:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #139FC0;
+    position: relative;
+    top: 50px;
+    transition: 0.3s;
+}
+
+#header #nav .depth1>li:hover a:before {
+    width: 100%;
+}
+
+#header #nav .depth2 {
+    position: absolute;
+    top: 70px;
+    left: 45%;
+    transform: translateX(-45%);
+    text-align: left;
+    font-weight: 400;
+    z-index: 10;
+    color: #fff;
+    display: none;
+    background-color: #139FC0;
+    width: 210px;
+    padding: 10px;
+}
+
+
+/*상 우 하 좌*/
+
+#header #nav .depth2>li {
+    font-size: 1rem;
+    line-height: 2em;
+    border-left: 2px solid #fff;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+#header #nav .depth2 li:hover {
+    color: #065F73;
+    border-color: #065F73;
+}
+
+#header #topmu {
+    width: 16.6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+#header #topmu button {
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    line-height: 4em;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+#header #topmu button:hover {
+    color: #139FC0;
+    cursor: pointer;
+}
+
+#header #topmu .sitemap {
+    display: none;
+}
+
+#header #topmu span {
+    position: absolute;
+    transform: translate(20px, 35px);
+    background-color: #222;
+    border-radius: 5px;
+    width: 30px;
+    height: 5px;
+}
+
+#header #topmu span:nth-child(1) {
+    top: 0;
+}
+
+#header #topmu span:nth-child(2) {
+    top: 10px;
+}
+
+#header #topmu span:nth-child(3) {
+    top: 20px;
+}
+
 
 /*footer*/
-#footer{width: 100%; height: 300px; position: absolute; top: 400%;}
-#footer .inner{text-align: center;
-               border-top:2px solid#ccc;
-               margin-top: 30px;}
-#footer .inner ul li{display: inline-block;}
-#footer .inner .info{}
-#footer .inner .info li{padding: 10px 10px;}
-#footer .inner h1{width: 400px; height: 90px;
-                  margin: 0 auto;}
-#footer .inner h1 img{width: 100%;}
-#footer .inner .snsbtn{padding-bottom: 15px;}
-#footer .inner .snsbtn li{width: 60px;height: 60px;}
-#footer .inner .snsbtn li img{width: 100%;}
-#footer .inner p{font-size: 0.875rem;}
+
+#footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#footer .inner {
+    text-align: center;
+    border-top: 2px solid#ccc;
+    margin-top: 30px;
+}
+
+#footer .inner ul li {
+    display: inline-block;
+}
+
+#footer .inner .info {}
+
+#footer .inner .info li {
+    padding: 10px 10px;
+}
+
+#footer .inner h1 {
+    width: 400px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#footer .inner h1 img {
+    width: 100%;
+}
+
+#footer .inner .snsbtn {
+    padding-bottom: 15px;
+}
+
+#footer .inner .snsbtn li {
+    width: 60px;
+    height: 60px;
+}
+
+#footer .inner .snsbtn li img {
+    width: 100%;
+}
+
+#footer .inner p {
+    font-size: 0.875rem;
+}
